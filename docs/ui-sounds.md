@@ -7,4 +7,4 @@ y para la voz sintetizada se utilizó [Balabolka](http://www.cross-plus-a.com/es
 con el servicio de [Microsoft Azure TTS](https://azure.microsoft.com/es-es/products/cognitive-services/text-to-speech/)  
 y se utilizó para mezclar, cortar  y editar audio [reaper.](https://www.reaper.fm/)  
 
-* [regresar al inicio](index.md)
+* [Ir al inicio](../index.md)

@@ -91,4 +91,4 @@ Si está pausado dirá continuar. y si se selecciona, continúa el avance del ti
 En ambos casos sale del menú.
 
 
-* [regresar al inicio](index.md)
+* [Ir al inicio](../index.md)
