@@ -19,7 +19,7 @@ Si un jugador detiene los relojes para solicitar la asistencia del árbitro, sin
 [Reloj de ajedrez](https://es.wikipedia.org/wiki/Reloj_de_ajedrez)
 
 ## Objetivo del proyecto Chessino
-  Miguel Barraza, soy ajedrecista ciego y en argentina o latinoamérica nos es muy difícil conseguir un ajedrez adaptado para jugar al ajedrez. Como programador y estudiante de la universidad de quilmes pensamos que podemos aportar al hardware y al software libre con este proyecto y mostrar que se puede desarrollar uno a muy bajo costo.
+  Miguel Barraza, soy ajedrecista ciego y en argentina o latinoamérica nos es muy difícil conseguir un reloj adaptado para jugar al ajedrez, sobre todo por su costo y disponibilidad, son muy difícil de conseguir en esta región. Como programador y estudiante de la universidad de quilmes pensamos que podemos aportar al hardware y al software libre con este proyecto y mostrar que se puede desarrollar uno a muy bajo costo.
 Es importante que en el desarrollo nos incluyan a las personas con discapacidad, porque podemos ser buenos UX, desarrolladores, testers, y sobre todo podemos ser parte del cambio.
 Un mundo mejor es aquel en el cual todos podemos jugar, ser deportistas y fumentar la cultura libre.
 En este proyecto todo el hardware es liberado con foto y detalle de como  lo construimos. Realizado con un Arduino como parte electrónica y una rasberry 3b para manejo de sonido, procesamiento y manejo de audio.
