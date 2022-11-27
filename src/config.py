@@ -13,7 +13,7 @@ keys= {
 # buttons arduino:
 # debe indeicarse el pin de conexión.
 # si es None no está asignado.
-keys= {
+buttons  = {
     "start": None,
     "white": None,
     "whiteRead": None,
