@@ -8,6 +8,7 @@ Cuenta con un display (pantalla) y 5 botones que está distribuido de la siguien
 y un botón pequeño en la zona central que es para el menú.  
 por defecto los botones de la derecha del display son para el jugador de piezas blancas. y los de la izquierda son para el jugador de piezas negras.  
 Si es el turno de las blancas, y el jugador de piezas negras pulsa el botón de pasar turno, se escuchará un sonido de error, pero no pasará el turno. Tampoco podrá pulsar el botón de escuchar tiempo, quedará inhabilitado. Solo se podrá pulsar los botones del jugador que tiene el tiempo vigente.
+Si el reloj está anunciando el tiempo y se pulsa el botón de lectura de tiempo del jugador activo se detendrá la lectura, es para detener el anuncio.
 
 ## Navegación por el menú
 

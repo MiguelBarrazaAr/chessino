@@ -61,7 +61,7 @@ Alterna entre (activado / desactivado).
 activa las alarmas de aviso.  
 por defecto está activado, te avisa cuando tienes menos de 10 minutos, menos de 1 minuto, cuando te quedan 30 segundos, y últimos 10 segundos.  
 podés activar solo 10 segundos, para que te avise solo cuando te queda menos de 10 segundos.
-Alterna entre: activado /  solo últimos 10 segundos / desactivado).
+Alterna entre: voz y sonido / sonido /  solo últimos 10 segundos / desactivado).
 
 ## aviso de tiempo
 
