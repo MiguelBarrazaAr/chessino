@@ -1,0 +1,1386 @@
+[
+    {
+        "path": "audios/number/0.wav",
+        "message": "0"
+    },
+    {
+        "path": "audios/number/1.wav",
+        "message": "1"
+    },
+    {
+        "path": "audios/number/2.wav",
+        "message": "2"
+    },
+    {
+        "path": "audios/number/3.wav",
+        "message": "3"
+    },
+    {
+        "path": "audios/number/4.wav",
+        "message": "4"
+    },
+    {
+        "path": "audios/number/5.wav",
+        "message": "5"
+    },
+    {
+        "path": "audios/number/6.wav",
+        "message": "6"
+    },
+    {
+        "path": "audios/number/7.wav",
+        "message": "7"
+    },
+    {
+        "path": "audios/number/8.wav",
+        "message": "8"
+    },
+    {
+        "path": "audios/number/9.wav",
+        "message": "9"
+    },
+    {
+        "path": "audios/number/10.wav",
+        "message": "10"
+    },
+    {
+        "path": "audios/number/11.wav",
+        "message": "11"
+    },
+    {
+        "path": "audios/number/12.wav",
+        "message": "12"
+    },
+    {
+        "path": "audios/number/13.wav",
+        "message": "13"
+    },
+    {
+        "path": "audios/number/14.wav",
+        "message": "14"
+    },
+    {
+        "path": "audios/number/15.wav",
+        "message": "15"
+    },
+    {
+        "path": "audios/number/16.wav",
+        "message": "16"
+    },
+    {
+        "path": "audios/number/17.wav",
+        "message": "17"
+    },
+    {
+        "path": "audios/number/18.wav",
+        "message": "18"
+    },
+    {
+        "path": "audios/number/19.wav",
+        "message": "19"
+    },
+    {
+        "path": "audios/number/20.wav",
+        "message": "20"
+    },
+    {
+        "path": "audios/number/21.wav",
+        "message": "21"
+    },
+    {
+        "path": "audios/number/22.wav",
+        "message": "22"
+    },
+    {
+        "path": "audios/number/23.wav",
+        "message": "23"
+    },
+    {
+        "path": "audios/number/24.wav",
+        "message": "24"
+    },
+    {
+        "path": "audios/number/25.wav",
+        "message": "25"
+    },
+    {
+        "path": "audios/number/26.wav",
+        "message": "26"
+    },
+    {
+        "path": "audios/number/27.wav",
+        "message": "27"
+    },
+    {
+        "path": "audios/number/28.wav",
+        "message": "28"
+    },
+    {
+        "path": "audios/number/29.wav",
+        "message": "29"
+    },
+    {
+        "path": "audios/number/30.wav",
+        "message": "30"
+    },
+    {
+        "path": "audios/number/31.wav",
+        "message": "31"
+    },
+    {
+        "path": "audios/number/32.wav",
+        "message": "32"
+    },
+    {
+        "path": "audios/number/33.wav",
+        "message": "33"
+    },
+    {
+        "path": "audios/number/34.wav",
+        "message": "34"
+    },
+    {
+        "path": "audios/number/35.wav",
+        "message": "35"
+    },
+    {
+        "path": "audios/number/36.wav",
+        "message": "36"
+    },
+    {
+        "path": "audios/number/37.wav",
+        "message": "37"
+    },
+    {
+        "path": "audios/number/38.wav",
+        "message": "38"
+    },
+    {
+        "path": "audios/number/39.wav",
+        "message": "39"
+    },
+    {
+        "path": "audios/number/40.wav",
+        "message": "40"
+    },
+    {
+        "path": "audios/number/41.wav",
+        "message": "41"
+    },
+    {
+        "path": "audios/number/42.wav",
+        "message": "42"
+    },
+    {
+        "path": "audios/number/43.wav",
+        "message": "43"
+    },
+    {
+        "path": "audios/number/44.wav",
+        "message": "44"
+    },
+    {
+        "path": "audios/number/45.wav",
+        "message": "45"
+    },
+    {
+        "path": "audios/number/46.wav",
+        "message": "46"
+    },
+    {
+        "path": "audios/number/47.wav",
+        "message": "47"
+    },
+    {
+        "path": "audios/number/48.wav",
+        "message": "48"
+    },
+    {
+        "path": "audios/number/49.wav",
+        "message": "49"
+    },
+    {
+        "path": "audios/number/50.wav",
+        "message": "50"
+    },
+    {
+        "path": "audios/number/51.wav",
+        "message": "51"
+    },
+    {
+        "path": "audios/number/52.wav",
+        "message": "52"
+    },
+    {
+        "path": "audios/number/53.wav",
+        "message": "53"
+    },
+    {
+        "path": "audios/number/54.wav",
+        "message": "54"
+    },
+    {
+        "path": "audios/number/55.wav",
+        "message": "55"
+    },
+    {
+        "path": "audios/number/56.wav",
+        "message": "56"
+    },
+    {
+        "path": "audios/number/57.wav",
+        "message": "57"
+    },
+    {
+        "path": "audios/number/58.wav",
+        "message": "58"
+    },
+    {
+        "path": "audios/number/59.wav",
+        "message": "59"
+    },
+    {
+        "path": "audios/number/60.wav",
+        "message": "60"
+    },
+    {
+        "path": "audios/number/61.wav",
+        "message": "61"
+    },
+    {
+        "path": "audios/number/62.wav",
+        "message": "62"
+    },
+    {
+        "path": "audios/number/63.wav",
+        "message": "63"
+    },
+    {
+        "path": "audios/number/64.wav",
+        "message": "64"
+    },
+    {
+        "path": "audios/number/65.wav",
+        "message": "65"
+    },
+    {
+        "path": "audios/number/66.wav",
+        "message": "66"
+    },
+    {
+        "path": "audios/number/67.wav",
+        "message": "67"
+    },
+    {
+        "path": "audios/number/68.wav",
+        "message": "68"
+    },
+    {
+        "path": "audios/number/69.wav",
+        "message": "69"
+    },
+    {
+        "path": "audios/number/70.wav",
+        "message": "70"
+    },
+    {
+        "path": "audios/number/71.wav",
+        "message": "71"
+    },
+    {
+        "path": "audios/number/72.wav",
+        "message": "72"
+    },
+    {
+        "path": "audios/number/73.wav",
+        "message": "73"
+    },
+    {
+        "path": "audios/number/74.wav",
+        "message": "74"
+    },
+    {
+        "path": "audios/number/75.wav",
+        "message": "75"
+    },
+    {
+        "path": "audios/number/76.wav",
+        "message": "76"
+    },
+    {
+        "path": "audios/number/77.wav",
+        "message": "77"
+    },
+    {
+        "path": "audios/number/78.wav",
+        "message": "78"
+    },
+    {
+        "path": "audios/number/79.wav",
+        "message": "79"
+    },
+    {
+        "path": "audios/number/80.wav",
+        "message": "80"
+    },
+    {
+        "path": "audios/number/81.wav",
+        "message": "81"
+    },
+    {
+        "path": "audios/number/82.wav",
+        "message": "82"
+    },
+    {
+        "path": "audios/number/83.wav",
+        "message": "83"
+    },
+    {
+        "path": "audios/number/84.wav",
+        "message": "84"
+    },
+    {
+        "path": "audios/number/85.wav",
+        "message": "85"
+    },
+    {
+        "path": "audios/number/86.wav",
+        "message": "86"
+    },
+    {
+        "path": "audios/number/87.wav",
+        "message": "87"
+    },
+    {
+        "path": "audios/number/88.wav",
+        "message": "88"
+    },
+    {
+        "path": "audios/number/89.wav",
+        "message": "89"
+    },
+    {
+        "path": "audios/number/90.wav",
+        "message": "90"
+    },
+    {
+        "path": "audios/number/91.wav",
+        "message": "91"
+    },
+    {
+        "path": "audios/number/92.wav",
+        "message": "92"
+    },
+    {
+        "path": "audios/number/93.wav",
+        "message": "93"
+    },
+    {
+        "path": "audios/number/94.wav",
+        "message": "94"
+    },
+    {
+        "path": "audios/number/95.wav",
+        "message": "95"
+    },
+    {
+        "path": "audios/number/96.wav",
+        "message": "96"
+    },
+    {
+        "path": "audios/number/97.wav",
+        "message": "97"
+    },
+    {
+        "path": "audios/number/98.wav",
+        "message": "98"
+    },
+    {
+        "path": "audios/number/99.wav",
+        "message": "99"
+    },
+    {
+        "path": "audios/number/100.wav",
+        "message": "100"
+    },
+    {
+        "path": "audios/number/101.wav",
+        "message": "101"
+    },
+    {
+        "path": "audios/number/102.wav",
+        "message": "102"
+    },
+    {
+        "path": "audios/number/103.wav",
+        "message": "103"
+    },
+    {
+        "path": "audios/number/104.wav",
+        "message": "104"
+    },
+    {
+        "path": "audios/number/105.wav",
+        "message": "105"
+    },
+    {
+        "path": "audios/number/106.wav",
+        "message": "106"
+    },
+    {
+        "path": "audios/number/107.wav",
+        "message": "107"
+    },
+    {
+        "path": "audios/number/108.wav",
+        "message": "108"
+    },
+    {
+        "path": "audios/number/109.wav",
+        "message": "109"
+    },
+    {
+        "path": "audios/number/110.wav",
+        "message": "110"
+    },
+    {
+        "path": "audios/number/111.wav",
+        "message": "111"
+    },
+    {
+        "path": "audios/number/112.wav",
+        "message": "112"
+    },
+    {
+        "path": "audios/number/113.wav",
+        "message": "113"
+    },
+    {
+        "path": "audios/number/114.wav",
+        "message": "114"
+    },
+    {
+        "path": "audios/number/115.wav",
+        "message": "115"
+    },
+    {
+        "path": "audios/number/116.wav",
+        "message": "116"
+    },
+    {
+        "path": "audios/number/117.wav",
+        "message": "117"
+    },
+    {
+        "path": "audios/number/118.wav",
+        "message": "118"
+    },
+    {
+        "path": "audios/number/119.wav",
+        "message": "119"
+    },
+    {
+        "path": "audios/number/120.wav",
+        "message": "120"
+    },
+    {
+        "path": "audios/number/121.wav",
+        "message": "121"
+    },
+    {
+        "path": "audios/number/122.wav",
+        "message": "122"
+    },
+    {
+        "path": "audios/number/123.wav",
+        "message": "123"
+    },
+    {
+        "path": "audios/number/124.wav",
+        "message": "124"
+    },
+    {
+        "path": "audios/number/125.wav",
+        "message": "125"
+    },
+    {
+        "path": "audios/number/126.wav",
+        "message": "126"
+    },
+    {
+        "path": "audios/number/127.wav",
+        "message": "127"
+    },
+    {
+        "path": "audios/number/128.wav",
+        "message": "128"
+    },
+    {
+        "path": "audios/number/129.wav",
+        "message": "129"
+    },
+    {
+        "path": "audios/number/130.wav",
+        "message": "130"
+    },
+    {
+        "path": "audios/number/131.wav",
+        "message": "131"
+    },
+    {
+        "path": "audios/number/132.wav",
+        "message": "132"
+    },
+    {
+        "path": "audios/number/133.wav",
+        "message": "133"
+    },
+    {
+        "path": "audios/number/134.wav",
+        "message": "134"
+    },
+    {
+        "path": "audios/number/135.wav",
+        "message": "135"
+    },
+    {
+        "path": "audios/number/136.wav",
+        "message": "136"
+    },
+    {
+        "path": "audios/number/137.wav",
+        "message": "137"
+    },
+    {
+        "path": "audios/number/138.wav",
+        "message": "138"
+    },
+    {
+        "path": "audios/number/139.wav",
+        "message": "139"
+    },
+    {
+        "path": "audios/number/140.wav",
+        "message": "140"
+    },
+    {
+        "path": "audios/number/141.wav",
+        "message": "141"
+    },
+    {
+        "path": "audios/number/142.wav",
+        "message": "142"
+    },
+    {
+        "path": "audios/number/143.wav",
+        "message": "143"
+    },
+    {
+        "path": "audios/number/144.wav",
+        "message": "144"
+    },
+    {
+        "path": "audios/number/145.wav",
+        "message": "145"
+    },
+    {
+        "path": "audios/number/146.wav",
+        "message": "146"
+    },
+    {
+        "path": "audios/number/147.wav",
+        "message": "147"
+    },
+    {
+        "path": "audios/number/148.wav",
+        "message": "148"
+    },
+    {
+        "path": "audios/number/149.wav",
+        "message": "149"
+    },
+    {
+        "path": "audios/number/150.wav",
+        "message": "150"
+    },
+    {
+        "path": "audios/number/151.wav",
+        "message": "151"
+    },
+    {
+        "path": "audios/number/152.wav",
+        "message": "152"
+    },
+    {
+        "path": "audios/number/153.wav",
+        "message": "153"
+    },
+    {
+        "path": "audios/number/154.wav",
+        "message": "154"
+    },
+    {
+        "path": "audios/number/155.wav",
+        "message": "155"
+    },
+    {
+        "path": "audios/number/156.wav",
+        "message": "156"
+    },
+    {
+        "path": "audios/number/157.wav",
+        "message": "157"
+    },
+    {
+        "path": "audios/number/158.wav",
+        "message": "158"
+    },
+    {
+        "path": "audios/number/159.wav",
+        "message": "159"
+    },
+    {
+        "path": "audios/number/160.wav",
+        "message": "160"
+    },
+    {
+        "path": "audios/number/161.wav",
+        "message": "161"
+    },
+    {
+        "path": "audios/number/162.wav",
+        "message": "162"
+    },
+    {
+        "path": "audios/number/163.wav",
+        "message": "163"
+    },
+    {
+        "path": "audios/number/164.wav",
+        "message": "164"
+    },
+    {
+        "path": "audios/number/165.wav",
+        "message": "165"
+    },
+    {
+        "path": "audios/number/166.wav",
+        "message": "166"
+    },
+    {
+        "path": "audios/number/167.wav",
+        "message": "167"
+    },
+    {
+        "path": "audios/number/168.wav",
+        "message": "168"
+    },
+    {
+        "path": "audios/number/169.wav",
+        "message": "169"
+    },
+    {
+        "path": "audios/number/170.wav",
+        "message": "170"
+    },
+    {
+        "path": "audios/number/171.wav",
+        "message": "171"
+    },
+    {
+        "path": "audios/number/172.wav",
+        "message": "172"
+    },
+    {
+        "path": "audios/number/173.wav",
+        "message": "173"
+    },
+    {
+        "path": "audios/number/174.wav",
+        "message": "174"
+    },
+    {
+        "path": "audios/number/175.wav",
+        "message": "175"
+    },
+    {
+        "path": "audios/number/176.wav",
+        "message": "176"
+    },
+    {
+        "path": "audios/number/177.wav",
+        "message": "177"
+    },
+    {
+        "path": "audios/number/178.wav",
+        "message": "178"
+    },
+    {
+        "path": "audios/number/179.wav",
+        "message": "179"
+    },
+    {
+        "path": "audios/number/180.wav",
+        "message": "180"
+    },
+    {
+        "path": "audios/number/181.wav",
+        "message": "181"
+    },
+    {
+        "path": "audios/number/182.wav",
+        "message": "182"
+    },
+    {
+        "path": "audios/number/183.wav",
+        "message": "183"
+    },
+    {
+        "path": "audios/number/184.wav",
+        "message": "184"
+    },
+    {
+        "path": "audios/number/185.wav",
+        "message": "185"
+    },
+    {
+        "path": "audios/number/186.wav",
+        "message": "186"
+    },
+    {
+        "path": "audios/number/187.wav",
+        "message": "187"
+    },
+    {
+        "path": "audios/number/188.wav",
+        "message": "188"
+    },
+    {
+        "path": "audios/number/189.wav",
+        "message": "189"
+    },
+    {
+        "path": "audios/number/190.wav",
+        "message": "190"
+    },
+    {
+        "path": "audios/number/191.wav",
+        "message": "191"
+    },
+    {
+        "path": "audios/number/192.wav",
+        "message": "192"
+    },
+    {
+        "path": "audios/number/193.wav",
+        "message": "193"
+    },
+    {
+        "path": "audios/number/194.wav",
+        "message": "194"
+    },
+    {
+        "path": "audios/number/195.wav",
+        "message": "195"
+    },
+    {
+        "path": "audios/number/196.wav",
+        "message": "196"
+    },
+    {
+        "path": "audios/number/197.wav",
+        "message": "197"
+    },
+    {
+        "path": "audios/number/198.wav",
+        "message": "198"
+    },
+    {
+        "path": "audios/number/199.wav",
+        "message": "199"
+    },
+    {
+        "path": "audios/number/200.wav",
+        "message": "200"
+    },
+    {
+        "path": "audios/number/201.wav",
+        "message": "201"
+    },
+    {
+        "path": "audios/number/202.wav",
+        "message": "202"
+    },
+    {
+        "path": "audios/number/203.wav",
+        "message": "203"
+    },
+    {
+        "path": "audios/number/204.wav",
+        "message": "204"
+    },
+    {
+        "path": "audios/number/205.wav",
+        "message": "205"
+    },
+    {
+        "path": "audios/number/206.wav",
+        "message": "206"
+    },
+    {
+        "path": "audios/number/207.wav",
+        "message": "207"
+    },
+    {
+        "path": "audios/number/208.wav",
+        "message": "208"
+    },
+    {
+        "path": "audios/number/209.wav",
+        "message": "209"
+    },
+    {
+        "path": "audios/number/210.wav",
+        "message": "210"
+    },
+    {
+        "path": "audios/number/211.wav",
+        "message": "211"
+    },
+    {
+        "path": "audios/number/212.wav",
+        "message": "212"
+    },
+    {
+        "path": "audios/number/213.wav",
+        "message": "213"
+    },
+    {
+        "path": "audios/number/214.wav",
+        "message": "214"
+    },
+    {
+        "path": "audios/number/215.wav",
+        "message": "215"
+    },
+    {
+        "path": "audios/number/216.wav",
+        "message": "216"
+    },
+    {
+        "path": "audios/number/217.wav",
+        "message": "217"
+    },
+    {
+        "path": "audios/number/218.wav",
+        "message": "218"
+    },
+    {
+        "path": "audios/number/219.wav",
+        "message": "219"
+    },
+    {
+        "path": "audios/number/220.wav",
+        "message": "220"
+    },
+    {
+        "path": "audios/number/221.wav",
+        "message": "221"
+    },
+    {
+        "path": "audios/number/222.wav",
+        "message": "222"
+    },
+    {
+        "path": "audios/number/223.wav",
+        "message": "223"
+    },
+    {
+        "path": "audios/number/224.wav",
+        "message": "224"
+    },
+    {
+        "path": "audios/number/225.wav",
+        "message": "225"
+    },
+    {
+        "path": "audios/number/226.wav",
+        "message": "226"
+    },
+    {
+        "path": "audios/number/227.wav",
+        "message": "227"
+    },
+    {
+        "path": "audios/number/228.wav",
+        "message": "228"
+    },
+    {
+        "path": "audios/number/229.wav",
+        "message": "229"
+    },
+    {
+        "path": "audios/number/230.wav",
+        "message": "230"
+    },
+    {
+        "path": "audios/number/231.wav",
+        "message": "231"
+    },
+    {
+        "path": "audios/number/232.wav",
+        "message": "232"
+    },
+    {
+        "path": "audios/number/233.wav",
+        "message": "233"
+    },
+    {
+        "path": "audios/number/234.wav",
+        "message": "234"
+    },
+    {
+        "path": "audios/number/235.wav",
+        "message": "235"
+    },
+    {
+        "path": "audios/number/236.wav",
+        "message": "236"
+    },
+    {
+        "path": "audios/number/237.wav",
+        "message": "237"
+    },
+    {
+        "path": "audios/number/238.wav",
+        "message": "238"
+    },
+    {
+        "path": "audios/number/239.wav",
+        "message": "239"
+    },
+    {
+        "path": "audios/number/240.wav",
+        "message": "240"
+    },
+    {
+        "path": "audios/number/241.wav",
+        "message": "241"
+    },
+    {
+        "path": "audios/number/242.wav",
+        "message": "242"
+    },
+    {
+        "path": "audios/number/243.wav",
+        "message": "243"
+    },
+    {
+        "path": "audios/number/244.wav",
+        "message": "244"
+    },
+    {
+        "path": "audios/number/245.wav",
+        "message": "245"
+    },
+    {
+        "path": "audios/number/246.wav",
+        "message": "246"
+    },
+    {
+        "path": "audios/number/247.wav",
+        "message": "247"
+    },
+    {
+        "path": "audios/number/248.wav",
+        "message": "248"
+    },
+    {
+        "path": "audios/number/249.wav",
+        "message": "249"
+    },
+    {
+        "path": "audios/number/250.wav",
+        "message": "250"
+    },
+    {
+        "path": "audios/number/251.wav",
+        "message": "251"
+    },
+    {
+        "path": "audios/number/252.wav",
+        "message": "252"
+    },
+    {
+        "path": "audios/number/253.wav",
+        "message": "253"
+    },
+    {
+        "path": "audios/number/254.wav",
+        "message": "254"
+    },
+    {
+        "path": "audios/number/255.wav",
+        "message": "255"
+    },
+    {
+        "path": "audios/number/256.wav",
+        "message": "256"
+    },
+    {
+        "path": "audios/number/257.wav",
+        "message": "257"
+    },
+    {
+        "path": "audios/number/258.wav",
+        "message": "258"
+    },
+    {
+        "path": "audios/number/259.wav",
+        "message": "259"
+    },
+    {
+        "path": "audios/number/260.wav",
+        "message": "260"
+    },
+    {
+        "path": "audios/number/261.wav",
+        "message": "261"
+    },
+    {
+        "path": "audios/number/262.wav",
+        "message": "262"
+    },
+    {
+        "path": "audios/number/263.wav",
+        "message": "263"
+    },
+    {
+        "path": "audios/number/264.wav",
+        "message": "264"
+    },
+    {
+        "path": "audios/number/265.wav",
+        "message": "265"
+    },
+    {
+        "path": "audios/number/266.wav",
+        "message": "266"
+    },
+    {
+        "path": "audios/number/267.wav",
+        "message": "267"
+    },
+    {
+        "path": "audios/number/268.wav",
+        "message": "268"
+    },
+    {
+        "path": "audios/number/269.wav",
+        "message": "269"
+    },
+    {
+        "path": "audios/number/270.wav",
+        "message": "270"
+    },
+    {
+        "path": "audios/number/271.wav",
+        "message": "271"
+    },
+    {
+        "path": "audios/number/272.wav",
+        "message": "272"
+    },
+    {
+        "path": "audios/number/273.wav",
+        "message": "273"
+    },
+    {
+        "path": "audios/number/274.wav",
+        "message": "274"
+    },
+    {
+        "path": "audios/number/275.wav",
+        "message": "275"
+    },
+    {
+        "path": "audios/number/276.wav",
+        "message": "276"
+    },
+    {
+        "path": "audios/number/277.wav",
+        "message": "277"
+    },
+    {
+        "path": "audios/number/278.wav",
+        "message": "278"
+    },
+    {
+        "path": "audios/number/279.wav",
+        "message": "279"
+    },
+    {
+        "path": "audios/number/280.wav",
+        "message": "280"
+    },
+    {
+        "path": "audios/number/281.wav",
+        "message": "281"
+    },
+    {
+        "path": "audios/number/282.wav",
+        "message": "282"
+    },
+    {
+        "path": "audios/number/283.wav",
+        "message": "283"
+    },
+    {
+        "path": "audios/number/284.wav",
+        "message": "284"
+    },
+    {
+        "path": "audios/number/285.wav",
+        "message": "285"
+    },
+    {
+        "path": "audios/number/286.wav",
+        "message": "286"
+    },
+    {
+        "path": "audios/number/287.wav",
+        "message": "287"
+    },
+    {
+        "path": "audios/number/288.wav",
+        "message": "288"
+    },
+    {
+        "path": "audios/number/289.wav",
+        "message": "289"
+    },
+    {
+        "path": "audios/number/290.wav",
+        "message": "290"
+    },
+    {
+        "path": "audios/number/291.wav",
+        "message": "291"
+    },
+    {
+        "path": "audios/number/292.wav",
+        "message": "292"
+    },
+    {
+        "path": "audios/number/293.wav",
+        "message": "293"
+    },
+    {
+        "path": "audios/number/294.wav",
+        "message": "294"
+    },
+    {
+        "path": "audios/number/295.wav",
+        "message": "295"
+    },
+    {
+        "path": "audios/number/296.wav",
+        "message": "296"
+    },
+    {
+        "path": "audios/number/297.wav",
+        "message": "297"
+    },
+    {
+        "path": "audios/number/298.wav",
+        "message": "298"
+    },
+    {
+        "path": "audios/number/299.wav",
+        "message": "299"
+    },
+    {
+        "path": "audios/number/300.wav",
+        "message": "300"
+    },
+    {
+        "path": "audios/logo.wav",
+        "message": "Chessino"
+    },
+    {
+        "path": "audios/listo.wav",
+        "message": "listo"
+    },
+    {
+        "path": "audios/reloj-pausado.wav",
+        "message": "Reloj pausado"
+    },
+    {
+        "path": "audios/tiempo-de.wav",
+        "message": "El tiempo de "
+    },
+    {
+        "path": "audios/es-de.wav",
+        "message": "es de "
+    },
+    {
+        "path": "audios/blancas.wav",
+        "message": "blancas"
+    },
+    {
+        "path": "audios/negras.wav",
+        "message": "negras"
+    },
+    {
+        "path": "audios/turno.wav",
+        "message": "es el turno de "
+    },
+    {
+        "path": "audios/configurar-tiempos.wav",
+        "message": "configurar tiempos"
+    },
+    {
+        "path": "audios/horas.wav",
+        "message": "horas"
+    },
+    {
+        "path": "audios/hora.wav",
+        "message": "hora"
+    },
+    {
+        "path": "audios/minutos.wav",
+        "message": ",minutos"
+    },
+    {
+        "path": "audios/minuto.wav",
+        "message": ",minuto"
+    },
+    {
+        "path": "audios/segundos.wav",
+        "message": "segundos"
+    },
+    {
+        "path": "audios/segundo.wav",
+        "message": "segundo"
+    },
+    {
+        "path": "audios/incremento.wav",
+        "message": "incremento"
+    },
+    {
+        "path": "audios/guardar-cambios.wav",
+        "message": "guardar cambios"
+    },
+    {
+        "path": "audios/cambios-guardados.wav",
+        "message": "Cambios guardados"
+    },
+    {
+        "path": "audios/activado.wav",
+        "message": "activado"
+    },
+    {
+        "path": "audios/desactivado.wav",
+        "message": "desactivado"
+    },
+    {
+        "path": "audios/tiempo-blancas.wav",
+        "message": "ajustar tiempo de blancas"
+    },
+    {
+        "path": "audios/tiempo-blancas-aviso.wav",
+        "message": "el tiempo de blancas se ajust\u00f3 a "
+    },
+    {
+        "path": "audios/tiempo-negras.wav",
+        "message": "ajustar tiempo de negras"
+    },
+    {
+        "path": "audios/tiempo-negras-aviso.wav",
+        "message": "el tiempo de negras se ajust\u00f3 a "
+    },
+    {
+        "path": "audios/reiniciar-tiempos.wav",
+        "message": "reiniciar tiempos"
+    },
+    {
+        "path": "audios/aviso-importante.wav",
+        "message": "Aviso importante."
+    },
+    {
+        "path": "audios/reiniciar-confirmar.wav",
+        "message": "los tiempos de cada jugador se reiniciar\u00e1n y no se podr\u00e1 recuperar. si desea continuar, pulse alguno de los botones superiores. o para cancelar, pulse alguno de los botones inferiores."
+    },
+    {
+        "path": "audios/reiniciar-aviso.wav",
+        "message": "Los tiempos de cada jugador se ajustaron a "
+    },
+    {
+        "path": "audios/sonidos.wav",
+        "message": "sonidos"
+    },
+    {
+        "path": "audios/alarmas.wav",
+        "message": "alarmas"
+    },
+    {
+        "path": "audios/alerta-10s.wav",
+        "message": "\u00faltimos 10 segundos"
+    },
+    {
+        "path": "audios/voz-sonidos.wav",
+        "message": "voz y sonidos"
+    },
+    {
+        "path": "audios/aviso-tiempo.wav",
+        "message": "aviso de tiempo"
+    },
+    {
+        "path": "audios/voz.wav",
+        "message": "voz"
+    },
+    {
+        "path": "audios/presets.wav",
+        "message": "presets"
+    },
+    {
+        "path": "audios/p1-60m-finish.wav",
+        "message": "60 minutos. finish"
+    },
+    {
+        "path": "audios/p2-90m-finish.wav",
+        "message": "90 minutos. finish"
+    },
+    {
+        "path": "audios/p3-20m-30s.wav",
+        "message": "20 minutos con 30 segundos de incremento"
+    },
+    {
+        "path": "audios/p4-5m-10s.wav",
+        "message": "5 minutos con 10 segundos de incremento"
+    },
+    {
+        "path": "audios/p5-2m-5s.wav",
+        "message": "2 minutos con 5 segundos de incremento"
+    },
+    {
+        "path": "audios/apagar.wav",
+        "message": "apagar"
+    },
+    {
+        "path": "audios/apagando.wav",
+        "message": "el dispositivo se est\u00e1 apagando."
+    },
+    {
+        "path": "audios/pausar.wav",
+        "message": "pausar"
+    },
+    {
+        "path": "audios/continuar.wav",
+        "message": "continuar"
+    },
+    {
+        "path": "audios/name.wav",
+        "message": "sofy"
+    }
+]
