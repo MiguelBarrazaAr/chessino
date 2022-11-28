@@ -6,5 +6,6 @@ import config
 engine = engine.init()
 registerController(engine)
 engine.loadConfig(config)
+engine.loadUserData()
 engine.setController("Start")
 engine.run()

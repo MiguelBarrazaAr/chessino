@@ -3,6 +3,7 @@ import sys
 import pygame
 import os
 from time import time
+from json import loads, dumps
 
 from .events import *
 from .eventManager import EventManager
@@ -30,7 +31,15 @@ class Engine():
 
     def loadConfig(self, config):
         self.config = config.__dict__
-        
+
+    def loadUserData(self):
+        with open("data.json", "r", encoding="utf-8") as f:
+            self.data = loads(f.read())
+
+    def saveUserData(self):
+        with open("data.json", "w", encoding="utf-8") as f:
+            f.write(dumps(self.data))
+
     def setTts(self, name):
         if os.path.exists('audios/'+name):
             self.ttsName = name

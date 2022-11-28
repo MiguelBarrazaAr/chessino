@@ -1,0 +1,12 @@
+{
+    "time-default": 1200,
+    "flag": true,
+    "white-turn": true,
+    "increment": 10,
+    "white": 1200,
+    "black": 1200,
+    "pause": true,
+    "sounds": true,
+    "alarms": true,
+    "notifications": true
+}

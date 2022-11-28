@@ -2,7 +2,8 @@ import pygame
 
 title="Chessino"
 version = 1.0
-voice = "sofy"
+voices = ["sofy", "lucho"]
+voice = voices[0]
 keys= {
     "start": pygame.K_RETURN,
     "white": pygame.K_q,
