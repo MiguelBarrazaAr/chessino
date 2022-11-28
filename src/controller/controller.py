@@ -16,6 +16,7 @@ class Controller():
         self.wait = engine.wait
         self.speak = engine.message
         self.callback = engine.callback
+        self.eventClear = engine.eventClear
         self.setController = engine.setController
         self.init()
 
