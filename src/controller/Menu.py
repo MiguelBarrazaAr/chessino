@@ -5,7 +5,18 @@ from .MenuCtrl import *
 class Menu(Controller):
     def start(self):
         self.options = [Config(self.engine),
-            Increment(self.engine)]
+            Increment(self.engine),
+            AjustW(self.engine),
+            AjustB(self.engine),
+            Reset(self.engine),
+            Sounds(self.engine),
+            Alarms(self.engine),
+            Notifications(self.engine),
+            Voices(self.engine),
+            Presets(self.engine),
+            Shutdown(self.engine),
+            Pause(self.engine)
+        ]
         self.id=0
         self.play("menu")
         self.wait(0.5)
