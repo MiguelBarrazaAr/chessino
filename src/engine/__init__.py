@@ -10,7 +10,7 @@ from .eventManager import EventManager
 
 class Engine():
     def __init__(self):
-        # params:
+        self._controllers = {}
         self.controller = None
         self._active = True # indica si esta activo.
         # initialize:
@@ -24,33 +24,42 @@ class Engine():
         self.clock = None
         self.config = {}
 
+    def register(self, controller):
+        self._controllers[controller.__name__] = controller
+
     def loadConfig(self, config):
         self.config = config.__dict__
-    
+        
     def setTts(self, name):
         if os.path.exists('audios/'+name):
             self.ttsName = name
             self._roottts = "audios/"+self.ttsName+"/"
+            self.log("se configuró como voz a: {}".format(name))
         else:
-            raise ValueError('no se encuentra la carpeta de audios: '+name)
+            raise ValueError('no se encuentra la carpeta de audios de la voz: '+name)
 
     
-    def setController(self, controller):
-        if not isinstance(controller, type):
-            controller = controller.__class__
-        self.controller = controller(self)
-        self.controller.start()
+    def setController(self, name):
+        try:
+            self.controller = self._controllers[name](self)
+        except KeyError:
+            self.error("'{}' no es un controlador válido.".format(name))
+        else:
+            self.controller.start()
+            self.log("controlador activo: {}".format(name))
 
     def appendEvent(self, typeEvent, data={}, repit=1):
         self.eventManager.append(typeEvent, data, self._time, repit)
+
+    def error(self, text):
+        self.log("error: "+text)
 
     def log(self, text):
         print(text)
 
     def run(self):
-                # app config
-        self.ttsName = self.config.get('voice', 'sami')
-        self._roottts = "audios/"+self.ttsName+"/"
+        # app config
+        self.setTts(self.config['voice'])
         self._rootfx = "audios/fx/"
         self._rootmusic = "audios/music/"
 

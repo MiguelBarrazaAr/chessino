@@ -2,6 +2,7 @@ import pygame
 
 title="Chessino"
 version = 1.0
+voice = "sofy"
 keys= {
     "start": pygame.K_RETURN,
     "white": pygame.K_q,
