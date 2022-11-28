@@ -12,6 +12,11 @@ KeysMethod= {
 class Controller():
     def __init__(self, engine):
         self.engine = engine
+        self.play = engine.play
+        self.wait = engine.wait
+        self.speak = engine.message
+        self.callback = engine.callback
+        self.setController = engine.setController
         self.init()
 
     def init(self):

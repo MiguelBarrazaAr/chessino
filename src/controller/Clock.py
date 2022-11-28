@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
-from .Dialog import Dialog
+from .Controller import Controller
 
-class Clock(Dialog):
+class Clock(Controller):
     def b1(self):
         print("negras")
 

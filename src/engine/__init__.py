@@ -13,6 +13,7 @@ class Engine():
         self._controllers = {}
         self.controller = None
         self._active = True # indica si esta activo.
+        self._time = 0
         # initialize:
         pygame.init()
         pygame.mixer.init()

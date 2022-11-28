@@ -1,6 +1,13 @@
 # -*- encoding: utf-8 -*-
-from .Controller import Controller
+from .Dialog import Dialog
 
-class Start(Controller):
+class Start(Dialog):
     def start(self):
-        print("inicio")
+        self.play("on")
+        self.wait(1)
+        self.play("chessino")
+        self.wait(1.3)
+        self.play("none")
+        self.wait(1)
+        self.speak("listo")
+        self.callback(self.setController, "Clock")

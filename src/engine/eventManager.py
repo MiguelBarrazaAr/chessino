@@ -30,6 +30,7 @@ class EventManager():
     def __init__(self, engine):
         self.engine = engine
         self.events = [] # precondición: siempre estará ordenada de menor a mayor en tiempo
+        self.audioExt = ".wav"
 
     def quit(self):
         pass
@@ -58,14 +59,14 @@ class EventManager():
         return ls
 
     def message(self, name):
-        path = pygame.mixer.Sound(self.engine._roottts+name+".ogg")
+        path = pygame.mixer.Sound(self.engine._roottts+name+self.audioExt)
         try:
             return self.engine.voiceChannel.play(path)
         except FileNotFoundError:
             self.engine.error("No se encuentra el audio: '{}'".format(path))
 
     def play(self, name, volume):
-        path = self.engine._rootfx+name+".ogg"
+        path = self.engine._rootfx+name+self.audioExt
         try:
             sound = pygame.mixer.Sound(path)
         except FileNotFoundError:
