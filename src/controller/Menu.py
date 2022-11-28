@@ -1,7 +1,11 @@
 # -*- encoding: utf-8 -*-
 from .Controller import Controller
 
-class Clock(Controller):
+class Menu(Controller):
+    def start(self):
+        self.play("menu")
+        self.readMenu()
+
     def b1(self):
         print("negras")
 
@@ -15,4 +19,8 @@ class Clock(Controller):
         print("lee blancas")
 
     def menu(self):
-        self.setController("Menu")
+        self.play("exit")
+        self.setController("Clock")
+
+    def readMenu(self):
+        pass
