@@ -3,6 +3,7 @@
     "flag": true,
     "white-turn": true,
     "increment": 10,
+    "add-increment": true,
     "white": 1200,
     "black": 1200,
     "pause": true,

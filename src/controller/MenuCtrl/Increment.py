@@ -1,12 +1,7 @@
 # -*- encoding: utf-8 -*-
-from .MenuItem import MenuItem
+from .ItemSwitch import ItemSwitch
 
-class Increment(MenuItem):
-    def start(self):
+class Sounds(ItemSwitch):
+    def Increment(self):
         self.audio = "incremento"
-
-    def back(self):
-        pass
-
-    def next(self):
-        pass
+        self.setParam('add-increment')
