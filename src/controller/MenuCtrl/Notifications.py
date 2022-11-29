@@ -1,12 +1,7 @@
 # -*- encoding: utf-8 -*-
-from .MenuItem import MenuItem
+from .ItemSwitch import ItemSwitch
 
-class Notifications(MenuItem):
+class Notifications(ItemSwitch):
     def start(self):
         self.audio = "aviso-tiempo"
-
-    def back(self):
-        pass
-
-    def next(self):
-        pass
+        self.setParam('notifications')
