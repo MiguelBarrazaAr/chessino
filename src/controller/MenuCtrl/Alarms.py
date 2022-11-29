@@ -1,12 +1,7 @@
 # -*- encoding: utf-8 -*-
-from .MenuItem import MenuItem
+from .ItemSwitch import ItemSwitch
 
-class Alarms(MenuItem):
+class Alarms(ItemSwitch):
     def start(self):
         self.audio = "alarmas"
-
-    def back(self):
-        pass
-
-    def next(self):
-        pass
+        self.setParam('alarms')
