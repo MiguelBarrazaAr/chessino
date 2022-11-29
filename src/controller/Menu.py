@@ -33,13 +33,13 @@ class Menu(Controller):
         self.callback(self.readMenu)
 
     def b2(self):
-        print("lee negras")
+        self.getOption().back()
 
     def w1(self):
         self.mover(1)
 
     def w2(self):
-        print("lee blancas")
+        self.getOption().next()
 
     def menu(self):
         self.play("exit")
