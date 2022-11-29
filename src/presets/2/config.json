@@ -1,0 +1,8 @@
+{
+    "name": "20 mins con 30 segs de incremento",
+    "format": "wav",
+    "hour": 0,
+    "minute": 20,
+    "second": 0,
+    "increment": 30
+}
