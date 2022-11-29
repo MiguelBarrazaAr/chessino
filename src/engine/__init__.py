@@ -38,7 +38,7 @@ class Engine():
 
     def saveUserData(self):
         with open("data.json", "w", encoding="utf-8") as f:
-            f.write(dumps(self.data))
+            f.write(dumps(self.data, indent=4))
         self.log("configuración del usuario guardada.")
 
     def setTts(self, name):
@@ -101,8 +101,8 @@ class Engine():
 
     def finish(self):
         self._active = False
-        self.engine.clock.setActive(False)
-        self.engine.data['pause'] = True
+        self.clock.setActive(False)
+        self.data['pause'] = True
         self.saveUserData()
         pygame.quit()
         self.eventManager.quit()
