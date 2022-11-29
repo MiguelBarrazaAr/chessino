@@ -1,12 +1,7 @@
 # -*- encoding: utf-8 -*-
-from .MenuItem import MenuItem
+from .ItemSwitch import ItemSwitch
 
-class Sounds(MenuItem):
+class Sounds(ItemSwitch):
     def start(self):
         self.audio = "sonidos"
-
-    def back(self):
-        pass
-
-    def next(self):
-        pass
+        self.setParam('sounds')
