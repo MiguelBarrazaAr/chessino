@@ -39,6 +39,7 @@ class Engine():
     def saveUserData(self):
         with open("data.json", "w", encoding="utf-8") as f:
             f.write(dumps(self.data))
+        self.log("configuración del usuario guardada.")
 
     def setTts(self, name):
         if os.path.exists('audios/'+name):
@@ -100,9 +101,12 @@ class Engine():
 
     def finish(self):
         self._active = False
+        self.engine.clock.setActive(False)
+        self.engine.data['pause'] = True
+        self.saveUserData()
         pygame.quit()
         self.eventManager.quit()
-        print("finalizado")
+        self.log("finalizado")
         sys.exit()
 
     def wait(self, sec):

@@ -14,8 +14,11 @@ class Pause(ItemSwitch):
 
     def readOption(self, option):
         if option:
+            self.engine.clock.setActive(False)
             self.engine.message('reloj-pausado')
             self.engine.wait(1.3)
+        else:
+            self.engine.clock.setActive(True)
         self.engine.play("exit")
         self.engine.setController("Clock")
 

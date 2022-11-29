@@ -4,6 +4,7 @@ from .MenuCtrl import *
 
 class Menu(Controller):
     def start(self):
+        self.engine.clock.setActive(False)
         self.options = [Config(self.engine),
             Increment(self.engine),
             AjustW(self.engine),
@@ -50,6 +51,7 @@ class Menu(Controller):
 
     def menu(self):
         self.play("exit")
+        self.engine.clock.setActive(self.engine.data['pause'])
         self.setController("Clock")
 
     def move(self, x):
