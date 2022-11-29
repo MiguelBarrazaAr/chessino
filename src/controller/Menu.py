@@ -28,21 +28,24 @@ class Menu(Controller):
     def mover(self, x):
         self.eventClear()
         self.move(x)
-        self.play("move")
-        self.wait(0.1)
+        if self.engine.data['sounds']:
+            self.play("move")
+            self.wait(0.1)
         self.callback(self.readMenu)
 
     def b2(self):
-        self.play('item')
-        self.wait(0.2)
+        if self.engine.data['sounds']:
+            self.play('item')
+            self.wait(0.1)
         self.getOption().back()
 
     def w1(self):
         self.mover(1)
 
     def w2(self):
-        self.play('item')
-        self.wait(0.2)
+        if self.engine.data['sounds']:
+            self.play('item')
+            self.wait(0.1)
         self.getOption().next()
 
     def menu(self):
