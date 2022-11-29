@@ -1,12 +1,21 @@
 # -*- encoding: utf-8 -*-
-from .MenuItem import MenuItem
+from .ItemSwitch import ItemSwitch
 
-class Pause(MenuItem):
+class Pause(ItemSwitch):
     def start(self):
         self.audio = "pausar"
+        self.setParam('pause')
 
-    def back(self):
-        pass
+    def read(self):
+        if self.engine.data['pause']:
+            self.engine.message('continuar')
+        else:
+            self.engine.message('pausar')
 
-    def next(self):
-        pass
+    def readOption(self, option):
+        if option:
+            self.engine.message('reloj-pausado')
+            self.engine.wait(1.3)
+        self.engine.play("exit")
+        self.engine.setController("Clock")
+
