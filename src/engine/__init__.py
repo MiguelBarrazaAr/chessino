@@ -89,6 +89,7 @@ class Engine():
             # activamos la escucha de eventos:
             while self.isActive():
                 self._time = 0 # reseteamos el contador de tiempo para eventos programados
+                self.clock.tick()
                 for event in (pygame.event.get() + self.eventManager.get()):
                     self.eventManager.process(event)
         except KeyboardInterrupt:
