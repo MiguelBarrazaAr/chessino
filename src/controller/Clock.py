@@ -7,7 +7,16 @@ class Clock(Controller):
             self.engine.clock.setActive(True)
 
     def b1(self):
-        print("negras")
+        self.engine.eventClear()
+        if not self.engine.data['pause'] and not self.engine.data['white-turn']:
+            self.engine.data['white-turn'] = True
+            self.engine.play('on')
+            self.engine.wait(0.6)
+            self.engine.message('turno')
+            self.engine.wait(1)
+            self.engine.message('blancas')
+        else:
+            self.engine.play('error')
 
     def b2(self):
         self.engine.eventClear()
@@ -23,7 +32,16 @@ class Clock(Controller):
                 self.engine.play('error')
 
     def w1(self):
-        print("blancas")
+        self.engine.eventClear()
+        if not self.engine.data['pause'] and self.engine.data['white-turn']:
+            self.engine.data['white-turn'] = False
+            self.engine.play('on')
+            self.engine.wait(0.6)
+            self.engine.message('turno')
+            self.engine.wait(1)
+            self.engine.message('negras')
+        else:
+            self.engine.play('error')
 
     def w2(self):
         self.engine.eventClear()
