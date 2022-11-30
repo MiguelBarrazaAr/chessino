@@ -35,6 +35,14 @@ class Clock():
                 self.finish()
             else:
                 self.alarm(value)
+            # mostramos valor:
+            self.engine.display("{} {}".format(self.formatTime('white'), self.formatTime('black')))
+
+    def formatTime(self, color):
+        t = self.engine.data[color]
+        m = t//60
+        s=t%60
+        return "{}:{}".format(m,s)
 
     def alarm(self, value):
         pass
