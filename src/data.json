@@ -4,10 +4,10 @@
     "white-turn": true,
     "increment": 10,
     "add-increment": true,
-    "white": 996,
-    "black": 1258,
+    "white": 1200,
+    "black": 1200,
     "pause": true,
-    "sounds": false,
+    "sounds": true,
     "alarms": true,
     "notifications": true
 }
