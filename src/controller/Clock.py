@@ -2,6 +2,10 @@
 from .Controller import Controller
 
 class Clock(Controller):
+    def start(self):
+        if not self.engine.data['pause']:
+            self.engine.clock.setActive(True)
+
     def b1(self):
         print("negras")
 

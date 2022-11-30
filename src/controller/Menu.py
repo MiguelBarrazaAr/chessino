@@ -51,7 +51,6 @@ class Menu(Controller):
 
     def menu(self):
         self.play("exit")
-        self.engine.clock.setActive(self.engine.data['pause'])
         self.setController("Clock")
 
     def move(self, x):
