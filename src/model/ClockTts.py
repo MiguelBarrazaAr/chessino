@@ -11,7 +11,9 @@ class ClockTts():
         self.readTime('white')
 
     def readWhiteTime(self):
-        pass
+        self.readOnlyWhiteTime()
+        self.wait(1.3)
+        self.readOnlyBlackTime()
 
     def readOnlyBlackTime(self):
         self.readTime('black')
@@ -49,7 +51,9 @@ class ClockTts():
                 self.engine.message('segundo')
 
     def readBlackTime(self):
-        pass
+        self.readOnlyBlackTime()
+        self.wait(1.3)
+        self.readOnlyWhiteTime()
 
     def getTimeOf(self, color):
         t = self.engine.data[color]
