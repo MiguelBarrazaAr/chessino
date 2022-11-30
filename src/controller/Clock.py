@@ -10,13 +10,13 @@ class Clock(Controller):
         print("negras")
 
     def b2(self):
-        print("lee negras")
+        self.engine.clockTts.readOnlyBlackTime()
 
     def w1(self):
         print("blancas")
 
     def w2(self):
-        print("lee blancas")
+        self.engine.clockTts.readOnlyWhiteTime()
 
     def menu(self):
         self.setController("Menu")
