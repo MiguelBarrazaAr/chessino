@@ -85,13 +85,15 @@ class Engine():
             pygame.display.set_caption(title)
             pygame.display.flip()
 
-
+        # conecta los botones arduino:
+        self.eventManager.conectButtonArduino()
         """ ejecuta el loop game """
         try:
             # activamos la escucha de eventos:
             while self.isActive():
                 self._time = 0 # reseteamos el contador de tiempo para eventos programados
                 self.clock.tick()
+                self.eventManager.checkArduino()
                 for event in (pygame.event.get() + self.eventManager.get()):
                     self.eventManager.process(event)
         except KeyboardInterrupt:

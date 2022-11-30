@@ -5,7 +5,7 @@ version = 1.0
 voices = ["sofy", "lucho"]
 voice = voices[0]
 keys= {
-    "start": pygame.K_RETURN,
+    "menu": pygame.K_RETURN,
     "white": pygame.K_q,
     "whiteRead": pygame.K_a,
     "black": pygame.K_w,
@@ -16,7 +16,7 @@ keys= {
 # debe indeicarse el pin de conexión.
 # si es None no está asignado.
 buttons  = {
-    "start": None,
+    "menu": None,
     "white": None,
     "whiteRead": None,
     "black": None,

@@ -1,6 +1,6 @@
 ﻿# -*- encoding: utf-8 -*-
 KeysMethod= {
-    "start": "menu",
+    "menu": "menu",
     "white": "w1",
     "whiteRead": "w2",
     "black": "b1",
@@ -52,6 +52,15 @@ class Controller():
             pass
         else:
             funcName = list(self.engine.config['keys'].keys())[pos]
+            print("dato", funcName, pos)
+            getattr(self, KeysMethod.get(funcName))()
+
+    def buttonDown(self, name):
+        try:
+            funcName = KeysMethod[name]
+        except KeyError:
+            pass
+        else:
             getattr(self, KeysMethod.get(funcName))()
 
     def game(self, event):
