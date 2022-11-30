@@ -1380,6 +1380,10 @@
         "message": "continuar"
     },
     {
+        "path": "audios/no-tiempo.wav",
+        "message": "Te quedas sin tiempo"
+    },
+    {
         "path": "audios/name.wav",
         "message": "sofy"
     }
