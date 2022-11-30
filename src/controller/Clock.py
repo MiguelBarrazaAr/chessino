@@ -10,6 +10,10 @@ class Clock(Controller):
         self.engine.eventClear()
         if not self.engine.data['pause'] and not self.engine.data['white-turn']:
             self.engine.data['white-turn'] = True
+            # agregamos incremento:
+            if self.engine.data['add-increment']:
+                self.engine.data['black'] = self.engine.data['black'] + self.engine.data['increment']
+            # reproducimos aviso:
             self.engine.play('on')
             self.engine.wait(0.6)
             self.engine.message('turno')
@@ -35,6 +39,10 @@ class Clock(Controller):
         self.engine.eventClear()
         if not self.engine.data['pause'] and self.engine.data['white-turn']:
             self.engine.data['white-turn'] = False
+            # agregamos incremento:
+            if self.engine.data['add-increment']:
+                self.engine.data['white'] = self.engine.data['white'] + self.engine.data['increment']
+            # reproducimos aviso:
             self.engine.play('on')
             self.engine.wait(0.6)
             self.engine.message('turno')
