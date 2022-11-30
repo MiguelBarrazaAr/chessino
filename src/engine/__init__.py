@@ -31,6 +31,7 @@ class Engine():
 
     def loadConfig(self, config):
         self.config = config.__dict__
+        self.modeDisplay = self.config['display']
 
     def loadUserData(self):
         with open("data.json", "r", encoding="utf-8") as f:
@@ -123,6 +124,9 @@ class Engine():
 
     def play(self, name, volume=None):
         self.appendEvent(AUDIO, {"name": name, "volume": volume})
+
+    def display(self, text):
+        self.appendEvent(DISPLAY, {"text": text})
 
     def callback(self, function, args=None):
         self.appendEvent(CALLBACK, {"callback": function, "args": args})

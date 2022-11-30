@@ -41,4 +41,11 @@ class Clock():
 
     def finish(self):
         self.setActive(False)
-        print("finalizado")
+        self.engine.data["flag"] = False
+        if self.engine.data["white-turn"]:
+            self.engine.display("gana negras")
+        else:
+            self.engine.display("gana blancas")
+        self.engine.play('finish')
+        self.engine.wait(1)
+        self.engine.play('finish')

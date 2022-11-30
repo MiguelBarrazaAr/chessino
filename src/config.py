@@ -22,3 +22,5 @@ buttons  = {
     "black": None,
     "blackRead": None,
 }
+# si no está conectado un display arduino, poner en False para que utilice print en consola.
+display = False

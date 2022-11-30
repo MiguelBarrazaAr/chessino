@@ -65,6 +65,12 @@ class EventManager():
         except FileNotFoundError:
             self.engine.error("No se encuentra el audio: '{}'".format(path))
 
+    def display(self, text):
+        if self.engine.modeDisplay:
+            pass # agregar funciones pyfirmata.
+        else:
+            print(text)
+
     def play(self, name, volume):
         path = self.engine._rootfx+name+self.audioExt
         try:
@@ -85,6 +91,8 @@ class EventManager():
             self.message(event.path)
         elif event.type == AUDIO:
             self.play(event.name, event.volume)
+        elif event.type == DISPLAY:
+            self.display(event.text)
         elif event.type == CALLBACK:
             if event.args:
                 event.callback(event.args)
