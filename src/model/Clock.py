@@ -70,3 +70,22 @@ class Clock():
         self.engine.message('no-tiempo')
         self.engine.wait(2)
         self.engine.play('finish')
+    
+    def setPreset(self, preset):
+        secs = self.toSeconds(preset['hour'], preset['minute'], preset['second'])
+        # lo seteamos como default
+        self.engine.data['time-default'] = secs
+
+    def setTime(self):
+        """ seteamos tiempo default a cada jugador """
+        secs = self.engine.data['time-default']
+        self.engine.data['white'] = secs
+        self.engine.data['black'] = secs
+        inc = preset['increment']
+        self.engine.data['increment'] = inc
+        self.engine.data['flag'] = True
+        self.engine.data['pause'] = False
+        self.engine.data['add-increment'] = inc>0
+
+    def toSeconds(self, hour, minute, second):
+        return hour*3600 + minute*60 + second

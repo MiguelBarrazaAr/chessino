@@ -1,5 +1,6 @@
 {
     "name": "5 mins con 10 segs de incremento",
+    "display": "5:00 inc 10",
     "format": "wav",
     "hour": 0,
     "minute": 5,

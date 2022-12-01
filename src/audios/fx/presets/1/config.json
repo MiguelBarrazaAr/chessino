@@ -1,5 +1,6 @@
 {
     "name": "90 mins finish",
+    "display": "1:30:00 inc 0",
     "format": "wav",
     "hour": 1,
     "minute": 30,
