@@ -7,7 +7,7 @@ class MenuItem():
         self.options = []
         self.label = ''
         self.start()
-    
+
     def start(self):
         pass
 
@@ -24,7 +24,7 @@ class MenuItem():
     def move(self, x):
         self.id = (self.id+x)%len(self.options)
         self.readOption(self.options[self.id])
-    
+
     def readOption(self, option):
         pass
 

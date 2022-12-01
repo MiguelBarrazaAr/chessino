@@ -18,7 +18,7 @@ Podremos encontrar las siguientes opciones:
 
 ## configurar tiempos
 
-Podrás personalizar el tiempo de la partida.  
+Podrás personalizar el tiempo de la partida.
 Al moverte por este menú encontrarás la opción para incrementar o decrementar:
 
 * hora
@@ -26,14 +26,14 @@ Al moverte por este menú encontrarás la opción para incrementar o decrementar
 *segundos
 * incremento (solo indicado en segundos)
 
-En esta versión se podrá prefijar como máximo: 23 horas, 59 minutos, 59 segundos.  
-el incremento es el tiempo agregado por cada movimiento, se podá prefijar como máximo 300 segundos, que serían 5 minutos. Un movimiento se entiende por cada vez que pasa el turno un jugador.  
+En esta versión se podrá prefijar como máximo: 23 horas, 59 minutos, 59 segundos.
+el incremento es el tiempo agregado por cada movimiento, se podá prefijar como máximo 300 segundos, que serían 5 minutos. Un movimiento se entiende por cada vez que pasa el turno un jugador.
 nota: para que se guarde la modificación se deberá seleccionar la opción guardar cambios.
 Advertencia: si se selecciona una opción de aquí el tiempo por defecto cambia, para configurar a cada jugador deberás seleccionar la opción: "reiniciar tiempos".
 
 ## incremento
 
-si está activado agrega tiempo extra por cada vez que pasa un turno.  
+si está activado agrega tiempo extra por cada vez que pasa un turno.
 Alterna entre (activado / desactivado).
 
 ## Ajustar tiempo de blancas
@@ -48,7 +48,7 @@ nota: para que se guarde la modificación se deberá seleccionar la opción guar
 
 ## reiniciar tiempos
 
-Reinicia los tiempos de ambos jugadores, para jugar una nueva partida.  
+Reinicia los tiempos de ambos jugadores, para jugar una nueva partida.
 Advertencia: si se selecciona esta opción no se podrá recuperar los tiempos actual, se perderán y se volverá al tiempo por defecto configurados en la configuración de tiempos.
 
 ## sonidos
@@ -58,8 +58,8 @@ Alterna entre (activado / desactivado).
 
 ## alarmas
 
-activa las alarmas de aviso.  
-por defecto está activado, te avisa cuando tienes menos de 10 minutos, menos de 1 minuto, cuando te quedan 30 segundos, y últimos 10 segundos.  
+activa las alarmas de aviso.
+por defecto está activado, te avisa cuando tienes menos de 10 minutos, menos de 1 minuto, cuando te quedan 30 segundos, y últimos 10 segundos.
 podés activar solo 10 segundos, para que te avise solo cuando te queda menos de 10 segundos.
 Alterna entre: voz y sonido / sonido /  solo últimos 10 segundos / desactivado).
 

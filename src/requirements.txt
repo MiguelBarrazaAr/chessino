@@ -1,5 +1,5 @@
 pygame
 flake8
 pylint
-pyfirmata 
+pyfirmata
 pymata4

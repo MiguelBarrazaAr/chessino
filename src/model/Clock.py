@@ -70,7 +70,7 @@ class Clock():
         self.engine.message('no-tiempo')
         self.engine.wait(2)
         self.engine.play('finish')
-    
+
     def setPreset(self, preset):
         secs = self.toSeconds(preset['hour'], preset['minute'], preset['second'])
         # lo seteamos como default

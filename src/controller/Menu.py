@@ -55,7 +55,7 @@ class Menu(Controller):
 
     def move(self, x):
         self.id = (self.id+x)%len(self.options)
-    
+
     def getOption(self):
         return self.options[self.id]
 
