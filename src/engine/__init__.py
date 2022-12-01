@@ -15,6 +15,7 @@ class Engine():
         self._controllers = {}
         self.controller = None
         self._active = True # indica si esta activo.
+        self.logs = True # activa logs
         self._time = 0
         # initialize:
         pygame.init()
@@ -33,6 +34,7 @@ class Engine():
     def loadConfig(self, config):
         self.config = config.__dict__
         self.modeDisplay = self.config['display']
+        self.logs = self.config['logs']
 
     def loadUserData(self):
         if not os.path.exists("data.json"):
@@ -72,7 +74,8 @@ class Engine():
         self.log("error: "+text)
 
     def log(self, text):
-        print(text)
+        if self.logs:
+            print(text)
 
     def run(self):
         # app config

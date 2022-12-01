@@ -24,3 +24,4 @@ buttons  = {
 }
 # si no está conectado un display arduino, poner en False para que utilice print en consola.
 display = True
+logs = True
