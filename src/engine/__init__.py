@@ -3,6 +3,7 @@ import sys
 import pygame
 import os
 from time import time
+from shutil import copy
 from json import loads, dumps
 
 from .events import *
@@ -34,6 +35,10 @@ class Engine():
         self.modeDisplay = self.config['display']
 
     def loadUserData(self):
+        if not os.path.exists("data.json"):
+            # si el archivo no existe crea una copia por defecto:
+            copy("data-default.json", "data.json")
+            self.log('seteada las user config por defecto')
         with open("data.json", "r", encoding="utf-8") as f:
             self.data = loads(f.read())
 
