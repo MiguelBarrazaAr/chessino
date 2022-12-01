@@ -6,6 +6,7 @@ class Clock():
         self.engine = engine
         self.active = False
         self.time = 0 # tiempo de la activación.
+        self.alarmsList = self.engine.data["alarm-list"]
 
     def setActive(self, status):
         self.active = status
@@ -45,7 +46,8 @@ class Clock():
         return "{}:{}".format(m,s)
 
     def alarm(self, value):
-        pass
+        if value in self.alarmsList:
+            self.engine.clockTts.alert(value)
 
     def finish(self):
         self.setActive(False)

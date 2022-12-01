@@ -8,7 +8,7 @@ class ClockTts():
         self.speak = engine.message
 
     def readOnlyWhiteTime(self):
-        self.readTime('white')
+        self.readTimeByColor('white')
 
     def readWhiteTime(self):
         self.readOnlyWhiteTime()
@@ -16,15 +16,17 @@ class ClockTts():
         self.readOnlyBlackTime()
 
     def readOnlyBlackTime(self):
-        self.readTime('black')
+        self.readTimeByColor('black')
 
-    def readTime(self, color):
-        time = self.getTimeOf(color)
+    def readTimeByColor(self, color):
         if color == 'white':
             self.engine.message('blancas')
         else:
             self.engine.message('negras')
-        h, m, s = time
+        self.readTime(self.engine.data[color])
+
+    def readTime(self, time):
+        h, m, s = self.unpackTime(time)
         if h > 0:
             self.wait(0.9)
             self.engine.message('number/'+str(h))
@@ -55,10 +57,16 @@ class ClockTts():
         self.wait(1.3)
         self.readOnlyWhiteTime()
 
-    def getTimeOf(self, color):
-        t = self.engine.data[color]
-        ms = t//60
-        s = t%60
+    def unpackTime(self, time):
+        ms = time//60
+        s = time%60
         h = ms//60
         m = ms%60
         return (h, m, s)
+
+    def alert(self, time):
+        """ notifica un alerta """
+        self.engine.play('alert')
+        self.engine.wait(0.1)
+        self.readTime(time)
+            

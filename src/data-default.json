@@ -9,5 +9,6 @@
     "pause": true,
     "sounds": true,
     "alarms": true,
-    "notifications": true
+    "notifications": true,
+    "alarm-list": [30, 120, 300, 600, 1800, 3600]
 }
