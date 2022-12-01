@@ -51,7 +51,9 @@ class Clock():
 
     def finish(self):
         self.setActive(False)
+        # bajamos bandera y pausamos:
         self.engine.data["flag"] = False
+        self.engine.data["pause"] = True
         if self.engine.data["white-turn"]:
             self.engine.display("gana negras")
         else:

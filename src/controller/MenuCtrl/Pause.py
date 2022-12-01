@@ -15,12 +15,20 @@ class Pause(ItemSwitch):
             self.engine.display('pausar')
 
     def readOption(self, option):
-        if option:
-            self.engine.clock.setActive(False)
-            self.engine.message('reloj-pausado')
-            self.engine.wait(1.3)
+        # miramos que no esté bajada la bandera:
+        if not self.engine.data['flag']:
+            self.engine.data['pause'] = True
+            self.engine.wait(0.1)
+            self.error()
+            self.engine.wait(1)
         else:
-            self.engine.clock.setActive(True)
-        self.engine.play("exit")
+            if option:
+                self.engine.clock.setActive(False)
+                self.engine.message('reloj-pausado')
+                self.engine.wait(1.3)
+                self.engine.play("exit")
+            else:
+                self.engine.clock.setActive(True)
+                self.engine.play("exit")
         self.engine.setController("Clock")
 

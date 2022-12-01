@@ -27,3 +27,7 @@ class MenuItem():
     
     def readOption(self, option):
         pass
+
+    def error(self):
+        self.engine.play('error')
+        self.engine.display('error')
