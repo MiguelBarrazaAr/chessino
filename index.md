@@ -29,5 +29,5 @@ Y el software fue programado en python utilizando  un lenguaje y sonidos libres.
 
 * [Miguel Barraza](https://github.com/MiguelBarrazaAr)
 * [Juan contardo](https://github.com/Contardo)
-* [Leandro Hotel](https://github.com/LeandroOtel)
+* [Leandro Otel](https://github.com/LeandroOtel)
 
