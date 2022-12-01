@@ -81,14 +81,22 @@ Y el software fue programado en python utilizando  un lenguaje y sonidos libres.
 
 ![](/imagenes/carcasa.png)
 
+* 4 Tornillos T1 para chapa + 2 Tornillos 3,5 x 9 o Remaches 4 + 2 Tornillos 3,5 x 9
+
+* Estaño para soldar
+
+* Papel Contact Negro 1 metro
+
 ## Herramientas:
 
 * Alicate
 * Soldadora de estaño
-* Estaño para soldar
 * Agujereadora 
 * Destornillador
-* Tornillos/Remaches
+* Tijera Corta Hoja Chapa
+* Remachadora
+
+
 
 ## Pasos para el armado de la carcasa:
 
@@ -106,7 +114,7 @@ Continuamos con dos cortes en la parte superior, fundamentales para el pliegue d
 
 Repetimos los mismos cortes pero en la otra cara.
 
-## Pliegos
+## Pliegos 1.0
 
 
 Es necesario contar con una madera lo más recta posible. Colocaremos la madera en la línea dibujada en la parte superior de la carcasa, justo donde realizamos el corte número 2 en la sección anterior y doblamos hacia arriba como se especifica en la foto hasta obtener un ángulo de 90 grados.
@@ -137,17 +145,43 @@ Luego de realizar el atornillado pasamos a la otra cara para repetir el paso.
 
 Así debería de quedar el resultado final desde dentro, en ete caso hay remaches pero sería idéntico con los tornillos.
 
-## Limado
-
-Ahora solo resta comenzar a limar y realizar los cortes finales.
+## Cortes + Limado  
+Cuando ya se cuenta con la carcaza atornillada o arremachada, podemos comenzar a realizar los cortes finales para esta parte. 
+A continuación se adjunta una imagen con los cortes a realizar y donde limar para evitar rebabas.
 
 ![](/imagenes/armado10.png)
 
+## Pliegos 2.0
+
+Ahora trabajaremos sobre la base, tomaremos una medida interna desde la pared trasera a unos 11 cm y trazamos una línea horizontal de pliego.
+Luego realizaremos el pliegue tal cual se muestra en imagen, es decir, hacia arriba y hacia el interior de la base.
+
+![](/imagenes/armado12.png)
+
+Luego realizaremos un corte del sobrante superior y lo dejaremos como la siguiente imagen
+
+![](/imagenes/armado13.png)
+
+De esta forma finalizamos el proceso de cortes y pliegues
 
 
+## Agujeros para botones
+Para realizar los agujeros para los botones podemos usar tanto una agujeradora con mecha de copa o usar una técnica más económica. 
+La técnica consiste en realizar perforaciones simultáneas muy cercanas en el contorno del círculo dibujado. Cuando ya se realizaron la mayor cantidad de perforaciones
+mediante una alicate y una lima podemos dejar un perfecto círculo.
+
+![](/imagenes/armado14.png)
+
+Distribución de los agujeros para los botones
+Dejaremos una imagen que muestra los agujeros a realizar para colocar los botones y el display lcd. También deberá realizar un agujero en el lateral derecho para colocar un pulsador (botón menú)
+
+![](/imagenes/armado11.png)
+
+## Resultado Final Exterior
+
+![](/imagenes/Final1.png)
+![](/imagenes/Final2.png)
 
 
-
-
-
-
+## Resultado Final Interior
+![](/imagenes/Interior.png)
