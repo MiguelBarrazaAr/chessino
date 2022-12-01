@@ -20,7 +20,7 @@ class Clock(Controller):
             self.engine.wait(1)
             self.engine.message('blancas')
         else:
-            self.engine.play('error')
+            self.error()
 
     def b2(self):
         self.engine.eventClear()
@@ -33,7 +33,7 @@ class Clock(Controller):
             if not self.engine.data['white-turn']:
                 self.engine.clockTts.readBlackTime()
             else:
-                self.engine.play('error')
+                self.error()
 
     def w1(self):
         self.engine.eventClear()
@@ -49,7 +49,7 @@ class Clock(Controller):
             self.engine.wait(1)
             self.engine.message('negras')
         else:
-            self.engine.play('error')
+            self.error()
 
     def w2(self):
         self.engine.eventClear()
@@ -62,7 +62,7 @@ class Clock(Controller):
             if self.engine.data['white-turn']:
                 self.engine.clockTts.readWhiteTime()
             else:
-                self.engine.play('error')
+                self.error()
 
     def menu(self):
         self.engine.eventClear()

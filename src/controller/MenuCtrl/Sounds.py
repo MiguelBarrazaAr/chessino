@@ -5,3 +5,4 @@ class Sounds(ItemSwitch):
     def start(self):
         self.audio = "sonidos"
         self.setParam('sounds')
+        self.engine.display('sonidos')

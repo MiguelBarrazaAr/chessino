@@ -5,3 +5,4 @@ class Notifications(ItemSwitch):
     def start(self):
         self.audio = "aviso-tiempo"
         self.setParam('notifications')
+        self.engine.display('notificacion')

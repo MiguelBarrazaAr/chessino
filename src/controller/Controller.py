@@ -64,3 +64,7 @@ class Controller():
 
     def game(self, event):
         pass
+
+    def error(self):
+        self.play('error')
+        self.engine.display('error')
