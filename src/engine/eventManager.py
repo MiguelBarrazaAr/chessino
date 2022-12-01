@@ -1,15 +1,18 @@
 # -*- encoding: utf-8 -*-
+import time
+
 import pygame
 from time import time as getTime
 from .events import *
 from pyfirmata import util, STRING_DATA
 from pymata4.pymata4 import Pymata4
 
+
 class GameEvent():
     def __init__(self, type, data, time=0, repit=0):
         self.type = type
         self.data = data
-        self.time = getTime()+time
+        self.time = getTime() + time
         self._timeBase = time
         self.repit = repit
 
@@ -21,25 +24,27 @@ class GameEvent():
         self.time += self._timeBase
 
     def __str__(self):
-        data= dict(time=self.time, timeBase=self._timeBase, repit=self.repit, **self.data)
+        data = dict(time=self.time, timeBase=self._timeBase, repit=self.repit, **self.data)
         return "GameEvent: {}".format(data)
+
     def __getattr__(self, name):
         return self.data[name]
+
 
 class Button():
     def __init__(self, name, pin):
         self.name = name
         self.pin = pin
-        self.time = 0
-    
+        self.time = getTime()
+
     def check(self, board):
         value = not board.digital_read(self.pin)[0]
-        if value:
-            t = int(getTime())
-            if self.time < t:
-                self.time = t
-                return value
-        return value
+        eventTime = board.digital_read(self.pin)[1]
+        if eventTime > self.time + 0.5:
+            self.time = eventTime
+            return value
+        else:
+            return False
 
 
 class EventManager():
@@ -57,7 +62,7 @@ class EventManager():
             engine.log("arduino conectado exitosamente")
         # lista de botones, se tienen que conectar con el metodo: conectButtonArduino
         self.arduinoBtn = []
-        self.events = [] # precondición: siempre estará ordenada de menor a mayor en tiempo
+        self.events = []  # precondición: siempre estará ordenada de menor a mayor en tiempo
         self.audioExt = ".wav"
         self.timeBtn = int(getTime())
 
@@ -102,14 +107,14 @@ class EventManager():
                     self.engine.error("el pin {} no es válido para el botón {}.".format(btn, key))
 
     def message(self, name):
-        path = pygame.mixer.Sound(self.engine._roottts+name+self.audioExt)
+        path = pygame.mixer.Sound(self.engine._roottts + name + self.audioExt)
         try:
             return self.engine.voiceChannel.play(path)
         except FileNotFoundError:
             self.engine.error("No se encuentra el audio: '{}'".format(path))
 
     def display(self, text):
-        text = str(text) # pasamos a str por si las dudas, por si recibimos en otro tipo.
+        text = str(text)  # pasamos a str por si las dudas, por si recibimos en otro tipo.
         charLen = len(text)
         if charLen > self.ScreenCharLimit:
             # si son más del limite de caracteres lo acorta y arroja un error.
@@ -123,7 +128,7 @@ class EventManager():
             self.engine.log("display: '{}'".format(text))
 
     def play(self, name, volume):
-        path = self.engine._rootfx+name+self.audioExt
+        path = self.engine._rootfx + name + self.audioExt
         try:
             sound = pygame.mixer.Sound(path)
         except FileNotFoundError:
