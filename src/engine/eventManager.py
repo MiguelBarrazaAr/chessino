@@ -32,7 +32,7 @@ class Button():
         self.pin = pin
     
     def check(self, board):
-        return not board.digital_read(self.pin)
+        return not board.digital_read(self.pin)[0]
 
 
 class EventManager():
