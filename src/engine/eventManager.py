@@ -30,9 +30,16 @@ class Button():
     def __init__(self, name, pin):
         self.name = name
         self.pin = pin
+        self.time = 0
     
     def check(self, board):
-        return not board.digital_read(self.pin)[0]
+        value = not board.digital_read(self.pin)[0]
+        if value:
+            t = int(getTime())
+            if self.time < t:
+                self.time = t
+                return value
+        return value
 
 
 class EventManager():
@@ -52,6 +59,7 @@ class EventManager():
         self.arduinoBtn = []
         self.events = [] # precondición: siempre estará ordenada de menor a mayor en tiempo
         self.audioExt = ".wav"
+        self.timeBtn = int(getTime())
 
     def quit(self):
         pass
@@ -112,7 +120,7 @@ class EventManager():
         if self.engine.modeDisplay and self._arduino:
             self.board._send_sysex(STRING_DATA, util.str_to_two_byte_iter(text))
         else:
-            self.log("display: '{}'".format(text))
+            self.engine.log("display: '{}'".format(text))
 
     def play(self, name, volume):
         path = self.engine._rootfx+name+self.audioExt

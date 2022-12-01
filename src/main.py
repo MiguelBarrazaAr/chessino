@@ -3,7 +3,7 @@ import engine
 from model.Clock import Clock
 from model.ClockTts import ClockTts
 import config
-from src.controller import registerController
+from controller import registerController
 
 engine = engine.init()
 registerController(engine)
