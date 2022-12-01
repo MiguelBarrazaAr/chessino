@@ -6,7 +6,7 @@ class Voices(MenuItem):
         self.audio = "voz"
         self.id = self.engine.config['voices'].index(self.engine.config['voice'])
         self.options = self.engine.config['voices']
-        self.engine.display('voz')
+        self.label = 'voz'
 
     def readOption(self, option):
         self.engine.setTts(option)

@@ -5,6 +5,7 @@ class MenuItem():
         self.audio = "name" # remplazar con el que corresponda
         self.id=0
         self.options = []
+        self.label = ''
         self.start()
     
     def start(self):
@@ -18,6 +19,7 @@ class MenuItem():
 
     def read(self):
         self.engine.message(self.audio)
+        self.engine.display(self.label)
 
     def move(self, x):
         self.id = (self.id+x)%len(self.options)

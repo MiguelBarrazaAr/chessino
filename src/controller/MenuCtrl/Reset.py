@@ -4,7 +4,7 @@ from .MenuItem import MenuItem
 class Reset(MenuItem):
     def start(self):
         self.audio = "reiniciar-tiempos"
-        self.engine.display('reiniciar tiemp')
+        self.label = 'reiniciar tiemp'
 
     def back(self):
         pass

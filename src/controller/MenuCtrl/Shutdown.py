@@ -4,7 +4,7 @@ from .MenuItem import MenuItem
 class Shutdown(MenuItem):
     def start(self):
         self.audio = "apagar"
-        self.engine.display('apagar')
+        self.label = 'apagar'
 
     def back(self):
         pass

@@ -3,7 +3,7 @@ from .MenuItem import MenuItem
 
 class Config(MenuItem):
     def start(self):
-        self.engine.display('config tiempo')
+        self.label = 'config tiempo'
         self.audio = "configurar-tiempos"
 
     def back(self):

@@ -5,4 +5,4 @@ class Increment(ItemSwitch):
     def start(self):
         self.audio = "incremento"
         self.setParam('add-increment')
-        self.engine.display('incremento')
+        self.label = 'incremento'

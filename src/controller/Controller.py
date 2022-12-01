@@ -18,6 +18,7 @@ class Controller():
         self.callback = engine.callback
         self.eventClear = engine.eventClear
         self.setController = engine.setController
+        self.display = self.engine.display
         self.init()
 
     def init(self):
