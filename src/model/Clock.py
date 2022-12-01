@@ -25,19 +25,22 @@ class Clock():
         if self.active and self.time < current:
             s = current - self.time
             self.time = current
+            # seteamos tiempos:
             if self.engine.data['white-turn']:
-                value = self.engine.data['white']-s
-                self.engine.data['white'] = value
+                value = self.setTimeByColor('white', s)
             else:
-                value = self.engine.data['black']-s
-                self.engine.data['black'] = value
-            # todo: agregar validaciones para que nunca el tiempo sea valores negativos.
-            if value == 0:
-                self.finish()
-            else:
-                self.alarm(value)
+                value = self.setTimeByColor('black', s)
+            self.alarm(value)
             # mostramos valor:
             self.engine.display("{} {}".format(self.formatTime('white'), self.formatTime('black')))
+
+    def setTimeByColor(self, color, seconds):
+        value = self.engine.data[color]-seconds
+        if value <= 0:
+            value=0
+            self.finish()
+        self.engine.data[color] = value
+        return value
 
     def formatTime(self, color):
         t = self.engine.data[color]
