@@ -69,4 +69,4 @@ class ClockTts():
         self.engine.play('alert')
         self.engine.wait(0.1)
         self.readTime(time)
-            
+

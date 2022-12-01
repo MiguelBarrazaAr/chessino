@@ -41,7 +41,7 @@ class Engine():
             preset = loads(f.read())
         self.clock.setPreset(preset)
         return preset
-        
+
     def loadUserData(self):
         if not os.path.exists("data.json"):
             # si el archivo no existe crea una copia por defecto:
@@ -63,7 +63,7 @@ class Engine():
         else:
             raise ValueError('no se encuentra la carpeta de audios de la voz: '+name)
 
-    
+
     def setController(self, name):
         try:
             self.controller = self._controllers[name](self)

@@ -7,7 +7,7 @@ class ItemSwitch(MenuItem):
 
     def move(self, x):
         option = not self.engine.data[self.param]
-        self.engine.data[self.param] = option 
+        self.engine.data[self.param] = option
         self.readOption(option)
 
     def readOption(self, option):
