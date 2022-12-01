@@ -31,8 +31,11 @@ class Clock():
             else:
                 value = self.setTimeByColor('black', s)
             self.alarm(value)
-            # mostramos valor:
-            self.engine.display("{} {}".format(self.formatTime('white'), self.formatTime('black')))
+            self.showTime()
+
+    def showTime(self):
+        # mostramos tiempos|:
+        self.engine.display("{} {}".format(self.formatTime('white'), self.formatTime('black')))
 
     def setTimeByColor(self, color, seconds):
         value = self.engine.data[color]-seconds
@@ -70,3 +73,23 @@ class Clock():
         self.engine.message('no-tiempo')
         self.engine.wait(2)
         self.engine.play('finish')
+    
+    def setPreset(self, preset):
+        secs = self.toSeconds(preset['hour'], preset['minute'], preset['second'])
+        # lo seteamos como default
+        self.engine.data['time-default'] = secs
+        self.engine.data['increment-default'] = preset['increment']
+
+    def setTime(self):
+        """ seteamos tiempo default a cada jugador """
+        secs = self.engine.data['time-default']
+        self.engine.data['white'] = secs
+        self.engine.data['black'] = secs
+        inc = self.engine.data['increment-default']
+        self.engine.data['increment'] = inc
+        self.engine.data['flag'] = True
+        self.engine.data['pause'] = True
+        self.engine.data['add-increment'] = inc>0
+
+    def toSeconds(self, hour, minute, second):
+        return hour*3600 + minute*60 + second

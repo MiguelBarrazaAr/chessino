@@ -36,6 +36,12 @@ class Engine():
         self.modeDisplay = self.config['display']
         self.logs = self.config['logs']
 
+    def loadPreset(self, path):
+        with open(path, "r", encoding="utf-8") as f:
+            preset = loads(f.read())
+        self.clock.setPreset(preset)
+        return preset
+        
     def loadUserData(self):
         if not os.path.exists("data.json"):
             # si el archivo no existe crea una copia por defecto:

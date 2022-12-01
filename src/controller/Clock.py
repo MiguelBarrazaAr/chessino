@@ -3,6 +3,7 @@ from .Controller import Controller
 
 class Clock(Controller):
     def start(self):
+        self.engine.clock.showTime()
         if not self.engine.data['pause']:
             self.engine.clock.setActive(True)
 

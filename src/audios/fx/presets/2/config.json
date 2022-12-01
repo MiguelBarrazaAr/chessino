@@ -1,5 +1,6 @@
 {
     "name": "20 mins con 30 segs de incremento",
+    "display": "20:00 inc 30",
     "format": "wav",
     "hour": 0,
     "minute": 20,
