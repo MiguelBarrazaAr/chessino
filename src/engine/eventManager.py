@@ -38,6 +38,7 @@ class Button():
 class EventManager():
     def __init__(self, engine):
         self.engine = engine
+        self.ScreenCharLimit = 16
         # conectamos a arduino:
         self._arduino = False
         try:
