@@ -31,55 +31,123 @@ Y el software fue programado en python utilizando  un lenguaje y sonidos libres.
 * [Juan Contardo](https://github.com/JPContardo)
 * [Leandro Otel](https://github.com/LeandroOtel)
 
-## Materiales
+## Materiales y precios
 
-* Raspberry 3 Model B
+* Raspberry 3 Model B (73.000$)
 
 ![](/imagenes/raspberry.png)
 
-* Placa Arduino Leonardo
+* Placa Arduino Leonardo (6800$)
 
 ![](/imagenes/arduinoLeonardo.jpg)
 
-* Cables Arduino Macho-Macho
+* Cables Arduino Macho-Macho (600$)
 
 ![](/imagenes/cablesArduinoMachoMacho.jpg)
 
-* Botón pulsador de 46mm tipo arcade x2
+* Botón pulsador de 46mm tipo arcade x2 (900$ c/u)
 
 ![](/imagenes/boton46mm.jpg)
 
-* Botón pulsador de 30mm tipo arcade x2
+* Botón pulsador de 30mm tipo arcade x2 (800$ c/u)
 
 ![](/imagenes/boton30mm.png)
 
-* Mini pulsador 
+* Mini pulsador (400$)
 
 ![](/imagenes/miniPulsador.png)
 
-* Display lcd 16x2 con módulo I2c
+* Display lcd 16x2 con módulo I2c (2.400$)
 
 ![](/imagenes/Display%20lcd%2016x2%20con%20m%C3%B3dulo%20I2c.png)
 
-* Mini Protoboard 170 puntos
+* Mini Protoboard 170 puntos (580$)
 
 ![](/imagenes/miniProtoboard.png)
 
-* Cable Datos Usb tipo A a Micro Usb ficha 90º
+* Cable Datos Usb tipo A a Micro Usb ficha 90º (700$)
 
 ![](/imagenes/Cable%20Datos%20Usb%20tipo%20A%20a%20Micro%20Usb%20ficha%2090%C2%BA.png)
 
-* Adaptador puerto de audio 3,5mm Macho(90º)-Hembra
+* Adaptador puerto de audio 3,5mm Macho(90º)-Hembra (390$)
 
 ![](/imagenes/Adaptador%20puerto%20de%20audio%203%2C5mm%20Macho(90%C2%BA)-Hembra.png)
 
-* Buzzer
+* Buzzer (400$)
 
 ![](/imagenes/buzzer.png)
 
 * Carcasa (madera-metal)
 
 ![](/imagenes/carcasa.png)
+
+## Herramientas:
+
+* Alicate
+* Soldadora de estaño
+* Estaño para soldar
+* Agujereadora 
+* Destornillador
+* Tornillos/Remaches
+
+## Pasos para el armado de la carcasa:
+
+Comenzaremos por hacer los cortes en la cara derecha. En el proceso de corte podría notar como la chapa comienza a doblarse, no se preocupe que con unos golpes después podemos enderezarla. Es de vital importancia seguir los cortes propuestos en la siguiente imagen, comenzando por el corte central (línea negra) y luego con las restantes (líneas rojas).
+
+![](/imagenes/armado1.png)
+
+Luego de los cortes veremos que nos queda un sobrante, el cual podemos retirar con la tijera realizando un corte interno.
+
+![](/imagenes/armado2.png)
+
+Continuamos con dos cortes en la parte superior, fundamentales para el pliegue de las piezas en los siguientes pasos. El corte número 2 es un poco más ancho que el corte número 1.
+
+![](/imagenes/armado3.png)
+
+Repetimos los mismos cortes pero en la otra cara.
+
+## Pliegos
+
+
+Es necesario contar con una madera lo más recta posible. Colocaremos la madera en la línea dibujada en la parte superior de la carcasa, justo donde realizamos el corte número 2 en la sección anterior y doblamos hacia arriba como se especifica en la foto hasta obtener un ángulo de 90 grados.
+
+![](/imagenes/armado4.png)
+
+Luego hacemos nuevamente un pliego pero en sentido inverso.
+
+![](/imagenes/armado5.png)
+
+Ahora solo resta hacer el último pliego, para esto utilizaremos la técnica de la madera nuevamente pero esta vez apoyando en la línea número 2. Ahorramos fuerza de abajo hacia arriba hasta alinear con las paredes triangulares laterales.
+
+![](/imagenes/armado6.png)
+
+
+Como resultado deberíamos obtener algo como esto
+
+![](/imagenes/armado7.png)
+
+## Remachado o Atornillado
+Para este paso tenemos dos opciones, podemos utilizar tornillos t1 para chapa o remaches. Nosotros usaremos remaches para darle maryor solidez estructural. Aquí tenemos que tener mucho ojo en alinear correctamente los márgenes triangulares con las pantallas internas para sujetar ambas partes correctamente. 
+
+![](/imagenes/armado8.png)
+
+Luego de realizar el atornillado pasamos a la otra cara para repetir el paso.
+
+![](/imagenes/armado9.png)
+
+Así debería de quedar el resultado final desde dentro, en ete caso hay remaches pero sería idéntico con los tornillos.
+
+## Limado
+
+Ahora solo resta comenzar a limar y realizar los cortes finales.
+
+![](/imagenes/armado10.png)
+
+
+
+
+
+
 
 
 
