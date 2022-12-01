@@ -8,7 +8,7 @@ class Clock(Controller):
 
     def b1(self):
         self.engine.eventClear()
-        if not self.engine.data['pause'] and not self.engine.data['white-turn']:
+        if self.engine.data['flag'] and not self.engine.data['pause'] and not self.engine.data['white-turn']:
             self.engine.data['white-turn'] = True
             # agregamos incremento:
             if self.engine.data['add-increment']:
@@ -37,7 +37,7 @@ class Clock(Controller):
 
     def w1(self):
         self.engine.eventClear()
-        if not self.engine.data['pause'] and self.engine.data['white-turn']:
+        if self.engine.data['flag'] and not self.engine.data['pause'] and self.engine.data['white-turn']:
             self.engine.data['white-turn'] = False
             # agregamos incremento:
             if self.engine.data['add-increment']:
