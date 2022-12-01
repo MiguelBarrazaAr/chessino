@@ -9,8 +9,10 @@ class Pause(ItemSwitch):
     def read(self):
         if self.engine.data['pause']:
             self.engine.message('continuar')
+            self.engine.display('continuar')
         else:
             self.engine.message('pausar')
+            self.engine.display('pausar')
 
     def readOption(self, option):
         if option:

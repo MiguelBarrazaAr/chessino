@@ -4,6 +4,7 @@ from .MenuItem import MenuItem
 class Presets(MenuItem):
     def start(self):
         self.audio = "presets"
+        self.engine.display('presets')
 
     def back(self):
         pass
