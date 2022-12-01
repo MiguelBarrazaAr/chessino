@@ -25,9 +25,61 @@ Un mundo mejor es aquel en el cual todos podemos jugar, ser deportistas y fument
 En este proyecto todo el hardware es liberado con foto y detalle de como  lo construimos. Realizado con un Arduino como parte electrónica y una rasberry 3b para manejo de sonido, procesamiento y manejo de audio.
 Y el software fue programado en python utilizando  un lenguaje y sonidos libres. Utilizando las librerías pygame, pyfirmata.
 
-## desarrollado por
+## Desarrollado por
 
 * [Miguel Barraza](https://github.com/MiguelBarrazaAr)
-* [Juan contardo](https://github.com/Contardo)
-* [Leandro Hotel](https://github.com/LeandroOtel)
+* [Juan Contardo](https://github.com/JPContardo)
+* [Leandro Otel](https://github.com/LeandroOtel)
+
+## Materiales
+
+* Raspberry 3 Model B
+
+![](/imagenes/raspberry.png)
+
+* Placa Arduino Leonardo
+
+![](/imagenes/arduinoLeonardo.jpg)
+
+* Cables Arduino Macho-Macho
+
+![](/imagenes/cablesArduinoMachoMacho.jpg)
+
+* Botón pulsador de 46mm tipo arcade x2
+
+![](/imagenes/boton46mm.jpg)
+
+* Botón pulsador de 30mm tipo arcade x2
+
+![](/imagenes/boton30mm.png)
+
+* Mini pulsador 
+
+![](/imagenes/miniPulsador.png)
+
+* Display lcd 16x2 con módulo I2c
+
+![](/imagenes/Display%20lcd%2016x2%20con%20m%C3%B3dulo%20I2c.png)
+
+* Mini Protoboard 170 puntos
+
+![](/imagenes/miniProtoboard.png)
+
+* Cable Datos Usb tipo A a Micro Usb ficha 90º
+
+![](/imagenes/Cable%20Datos%20Usb%20tipo%20A%20a%20Micro%20Usb%20ficha%2090%C2%BA.png)
+
+* Adaptador puerto de audio 3,5mm Macho(90º)-Hembra
+
+![](/imagenes/Adaptador%20puerto%20de%20audio%203%2C5mm%20Macho(90%C2%BA)-Hembra.png)
+
+* Buzzer
+
+![](/imagenes/buzzer.png)
+
+* Carcasa (madera-metal)
+
+![](/imagenes/carcasa.png)
+
+
 
