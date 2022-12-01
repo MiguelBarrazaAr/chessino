@@ -52,7 +52,6 @@ class Controller():
             pass
         else:
             funcName = list(self.engine.config['keys'].keys())[pos]
-            print("dato", funcName, pos)
             getattr(self, KeysMethod.get(funcName))()
 
     def buttonDown(self, name):
@@ -61,7 +60,7 @@ class Controller():
         except KeyError:
             pass
         else:
-            getattr(self, KeysMethod.get(funcName))()
+            getattr(self, funcName)()
 
     def game(self, event):
         pass

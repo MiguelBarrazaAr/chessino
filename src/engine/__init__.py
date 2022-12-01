@@ -86,7 +86,8 @@ class Engine():
             pygame.display.flip()
 
         # conecta los botones arduino:
-        self.eventManager.conectButtonArduino()
+        if self.eventManager.arduinoIsActive():
+            self.eventManager.conectButtonArduino()
         """ ejecuta el loop game """
         try:
             # activamos la escucha de eventos:

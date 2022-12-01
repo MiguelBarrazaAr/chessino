@@ -32,7 +32,7 @@ class Button():
         self.pin = pin
     
     def check(self, board):
-        return board.digital_read(self.pin)
+        return not board.digital_read(self.pin)
 
 
 class EventManager():
@@ -55,6 +55,9 @@ class EventManager():
 
     def quit(self):
         pass
+
+    def arduinoIsActive(self):
+        return self._arduino
 
     def append(self, type, data, time, repit):
         """ agrega un evento a la lista de eventos pendientes. """
@@ -84,7 +87,7 @@ class EventManager():
         precondición: verificar si está arduino activo antes de llamar a este método. """
         for key, btn in self.engine.config['buttons'].items():
             if isinstance(btn, int):
-                board.set_pin_mode_digital_input_pullup(btn)
+                self.board.set_pin_mode_digital_input_pullup(btn)
                 self.arduinoBtn.append(Button(key, btn))
             else:
                 if btn is not None:
@@ -144,5 +147,5 @@ class EventManager():
     def checkArduino(self):
         if self._arduino:
             for btn in self.arduinoBtn:
-                if btn.check():
+                if btn.check(self.board):
                     self.engine.controller.buttonDown(btn.name)
