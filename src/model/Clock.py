@@ -57,10 +57,16 @@ class Clock():
         # bajamos bandera y pausamos:
         self.engine.data["flag"] = False
         self.engine.data["pause"] = True
+        # alerta de sonido:
+        self.engine.play('finish')
+        self.engine.wait(1.5)
         if self.engine.data["white-turn"]:
             self.engine.display("gana negras")
+            self.engine.message('blancas')
         else:
             self.engine.display("gana blancas")
-        self.engine.play('finish')
+            self.engine.message('negras')
         self.engine.wait(1)
+        self.engine.message('no-tiempo')
+        self.engine.wait(2)
         self.engine.play('finish')
