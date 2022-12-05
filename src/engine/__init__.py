@@ -110,7 +110,10 @@ class Engine():
                 self.clock.tick()
                 self.eventManager.checkArduino()
                 for event in (pygame.event.get() + self.eventManager.get()):
-                    self.eventManager.process(event)
+                    try:
+                        self.eventManager.process(event)
+                    except:
+                        pass
         except KeyboardInterrupt:
             self.finish()
 

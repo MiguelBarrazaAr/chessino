@@ -107,8 +107,8 @@ class EventManager():
                     self.engine.error("el pin {} no es válido para el botón {}.".format(btn, key))
 
     def message(self, name):
-        path = pygame.mixer.Sound(self.engine._roottts + name + self.audioExt)
         try:
+            path = pygame.mixer.Sound(self.engine._roottts + name + self.audioExt)
             return self.engine.voiceChannel.play(path)
         except FileNotFoundError:
             self.engine.error("No se encuentra el audio: '{}'".format(path))
