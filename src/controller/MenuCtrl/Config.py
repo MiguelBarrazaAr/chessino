@@ -7,7 +7,11 @@ class Config(MenuItem):
         self.audio = "configurar-tiempos"
 
     def back(self):
-        pass
+        self.active()
 
     def next(self):
-        pass
+        self.active()
+    
+    def active(self):
+        self.engine.wait(0.1)
+        self.engine.callback(self.engine.setController, 'ConfigTimeMenu')
